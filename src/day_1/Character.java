@@ -7,7 +7,7 @@ public class Character {
 		char b = 66;
 		System.out.println(b);
 		int c = 'C';
-		System.out.println(c);	
+		System.out.println(c);
 	}
 
 }
