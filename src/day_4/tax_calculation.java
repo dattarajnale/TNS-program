@@ -18,15 +18,15 @@ public class tax_calculation {
 			}
 			else if(person.getIncome() > 160000 && person.getIncome() <= 500000)
 			{
-				person.setTax((person.getTax() - 160000) * 5/100);
+				person.setTax((person.getIncome() - 160000) * 5/100);
 			}
 			else if(person.getIncome() > 500000 && person.getIncome() <= 800000)
 			{
-				person.setTax((person.getTax() - 500000) * 10/100 + 340000);
+				person.setTax((person.getIncome() - 500000) * 10/100 + 340000);
 			}
 			else
 			{
-				person.setTax((person.getTax() - 800000) * 20/100 + 94000);
+				person.setTax((person.getIncome() - 800000) * 20/100 + 94000);
 			}
 		}
 		
