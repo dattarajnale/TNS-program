@@ -33,7 +33,8 @@ public class ConstructorDemo {
 		Constructors c2 = new Constructors(name, id, city);
 		System.out.println(c2);
 		
-		
+		sc.close();
 	}
+	
 
 }
